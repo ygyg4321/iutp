@@ -23,7 +23,7 @@ public class CoffeeConfig {
     public Cafe cafe(){
         Cafe cafe = new Cafe(dirp());
         cafe.setBarista(barista());
-        return cafe();
+        return cafe;
     }
 
     @Bean

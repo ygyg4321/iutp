@@ -6,7 +6,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
 @SpringBootApplication
-@ImportResource("classpath:coffee-context.xml")
+// @ImportResource("classpath:coffee-context.xml")
 public class CoffeeApplication {
     public static void main(String[] args) {
         ApplicationContext context = SpringApplication.run(CoffeeApplication.class, args);
